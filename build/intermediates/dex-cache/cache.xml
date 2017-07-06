@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3f4c8faf2206381eb1fad00caa5daa09832012c5">
+        <dex dex="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_37ec6072eab11491a990d53c213467cdac72743d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-26.0.0-alpha1_a70769f3c9800d707ea914000dcec8e6824c7429\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-26.0.0-alpha1_28c7701c77cac31398cf78f496167ad10f09190b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-26.0.0-alpha1_1eb91acc15ba3f096e85897aacc3dd682329d113\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-26.0.0-alpha1_436f21bae7ec8b486587d756d126eaa66421f063\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-26.0.0-alpha1_642bcbc120060f21379881854901df77d3a90774\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Program Files (x86)\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_8a57f9999ac2028dac427e00cd754d5fd09555e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="265bc708243faa361d6cadecb89f026132792d6a">
+        <dex dex="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_dcddda82c8629686e8757a5ffe7d92a88ec432b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-26.0.0-alpha1_f9b50636585260df690d9937257a7d062fe68bf6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-26.0.0-alpha1_be1faf33f60981f24a72824f1879ec2811b88e80\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-26.0.0-alpha1_05192db391d03e98f8c006ce7991fb2532487dd5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-26.0.0-alpha1_508563f92056da3559ad09548e17e6ddc5981185\classes.dex" />
+    </item>
+
+</items>

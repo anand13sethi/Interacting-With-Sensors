@@ -1,0 +1,7 @@
+#Thu Jul 06 01:52:25 IST 2017
+base.0=D\:\\IntelliJ Projects\\CloudSim\\InteractingWithSensors\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_37ec6072eab11491a990d53c213467cdac72743d
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\IntelliJ Projects\\CloudSim\\InteractingWithSensors\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_dcddda82c8629686e8757a5ffe7d92a88ec432b5\\classes.dex
+base.1=D\:\\IntelliJ Projects\\CloudSim\\InteractingWithSensors\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_dcddda82c8629686e8757a5ffe7d92a88ec432b5
+file.0=D\:\\IntelliJ Projects\\CloudSim\\InteractingWithSensors\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_37ec6072eab11491a990d53c213467cdac72743d\\classes.dex

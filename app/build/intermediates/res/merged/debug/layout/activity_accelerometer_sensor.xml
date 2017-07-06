@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_accelerometer_sensor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/colorAccent"
+    tools:context="sagar.com.interactingwithsensors.AccelerometerSensor">
+
+    <TextView
+        android:text="@string/introTextAccelerometer"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:id="@+id/introTextAccelerometer"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:text="@string/yText"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:id="@+id/yText"
+        android:layout_below="@+id/xText"
+        android:layout_alignLeft="@+id/xText"
+        android:layout_alignStart="@+id/xText"/>
+
+    <TextView
+        android:text="@string/zText"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:id="@+id/zText"
+        android:layout_below="@+id/yText"
+        android:layout_alignLeft="@+id/yText"
+        android:layout_alignStart="@+id/yText"/>
+
+    <TextView
+        android:text="@string/xText"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:id="@+id/xText"
+        android:layout_below="@+id/introTextAccelerometer"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
