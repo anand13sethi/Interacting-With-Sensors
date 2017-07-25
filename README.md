@@ -15,4 +15,4 @@ Future Scope:
 1. To add wake up functionality when one hovers hand over the proximity sensor.
 2. To add wake up functionality when one lifts up the device.
 3. To add video capturing capability.
-4. Add support of more sensors.
+4. Add support for more sensors.
