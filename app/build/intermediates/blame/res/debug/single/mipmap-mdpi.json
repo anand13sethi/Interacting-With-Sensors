@@ -1,6 +1,10 @@
 [
     {
-        "merged": "D:\\IntelliJ Projects\\CloudSim\\InteractingWithSensors\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
-        "source": "D:\\IntelliJ Projects\\CloudSim\\InteractingWithSensors\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "D:\\IntelliJ Projects\\Android Projects (DRDO)\\Sensors\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "D:\\IntelliJ Projects\\Android Projects (DRDO)\\Sensors\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\IntelliJ Projects\\Android Projects (DRDO)\\Sensors\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "D:\\IntelliJ Projects\\Android Projects (DRDO)\\Sensors\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]

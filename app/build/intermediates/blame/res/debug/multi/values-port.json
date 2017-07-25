@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\IntelliJ Projects\\CloudSim\\InteractingWithSensors\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+        "outputFile": "D:\\IntelliJ Projects\\Android Projects (DRDO)\\Sensors\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "D:\\IntelliJ Projects\\CloudSim\\InteractingWithSensors\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\values-port\\values-port.xml",
+                    "file": "C:\\Users\\Vivek Sethi\\.android\\build-cache\\41f0738288ec813235731acb501772497c834ef3\\output\\res\\values-port\\values-port.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

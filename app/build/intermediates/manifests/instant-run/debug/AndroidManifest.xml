@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="sagar.com.interactingwithsensors"
+    package="sagar.com.sensors"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -8,30 +8,49 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="26" />
 
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.Sensor" />
+    <uses-feature android:name="android.hardware.SensorEventListener" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <meta-data
         android:name="android.support.VERSION"
         android:value="26.0.0-alpha1" />
 
     <application
-        android:name="com.android.tools.fd.runtime.BootstrapApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name="sagar.com.interactingwithsensors.MainActivity" >
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+        <activity android:name="sagar.com.sensors.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="sagar.com.interactingwithsensors.SensorList" >
+        <activity android:name="sagar.com.sensors.AccelerometerSensor" >
         </activity>
-        <activity android:name="sagar.com.interactingwithsensors.AccelerometerSensor" >
+        <activity android:name="sagar.com.sensors.GyroscopeSensor" >
         </activity>
-        <activity android:name="sagar.com.interactingwithsensors.ProximitySensor" >
+        <activity android:name="sagar.com.sensors.ProximitySensor" >
         </activity>
+        <activity android:name="sagar.com.sensors.CameraSensor" >
+        </activity>
+        <activity android:name="sagar.com.sensors.ListSensor" >
+        </activity>
+
+        <service
+            android:name="com.android.tools.fd.runtime.InstantRunService"
+            android:exported="true" />
     </application>
 
 </manifest>

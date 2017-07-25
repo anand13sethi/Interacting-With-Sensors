@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    tools:context="sagar.com.sensors.GyroscopeSensor">
+
+    <TextView
+        android:text="@string/gyroscopeIntroText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EDE7F6"
+        android:layout_marginTop="159dp"
+        android:textSize="27sp"
+        android:id="@+id/gyroscopeIntroId"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:text="@string/xValueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EDE7F6"
+        android:layout_below="@+id/gyroscopeIntroId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:textSize="18sp"
+        android:id="@+id/xValueId"/>
+
+    <TextView
+        android:text="@string/yValueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EDE7F6"
+        android:layout_below="@+id/xValueId"
+        android:layout_alignLeft="@+id/xValueId"
+        android:layout_alignStart="@+id/xValueId"
+        android:layout_marginTop="58dp"
+        android:textSize="18sp"
+        android:id="@+id/yValueId"/>
+
+    <TextView
+        android:text="@string/zValueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EDE7F6"
+        android:layout_below="@+id/yValueId"
+        android:layout_alignRight="@+id/yValueId"
+        android:layout_alignEnd="@+id/yValueId"
+        android:layout_marginTop="58dp"
+        android:textSize="18sp"
+        android:id="@+id/zValueId"/>
+</android.widget.RelativeLayout>

@@ -1,100 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<android.widget.RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
+    android:background="#673AB7"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="sagar.com.interactingwithsensors.MainActivity"
-    android:elevation="1dp"
-    android:background="@color/colorAccent">
+    tools:context="sagar.com.sensors.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
 
     <TextView
-        android:text="@string/introText"
+        android:text="@string/mainIntroText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="23dp"
-        android:textSize="30sp"
-        android:id="@+id/textView"
+        android:textColor="#EDE7F6"
+        android:id="@+id/mainIntroId"
+        android:textStyle="bold"
+        android:textSize="27sp"
+        android:layout_marginTop="165dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:clickable="false"/>
+        android:layout_centerHorizontal="true"/>
 
     <Button
-        android:text="@string/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button3"
-        android:layout_below="@+id/button"
-        android:layout_toStartOf="@+id/textView"
-        android:layout_marginTop="56dp"
-        android:layout_alignRight="@+id/button"
-        android:layout_alignEnd="@+id/button"/>
-
-    <Button
-        android:text="@string/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button4"
-        android:layout_alignBaseline="@+id/button3"
-        android:layout_alignBottom="@+id/button3"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2"/>
-
-    <Button
-        android:text="@string/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="47dp"
-        android:id="@+id/button5"
-        android:layout_below="@+id/button3"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3"
-        android:layout_alignRight="@+id/button3"
-        android:layout_alignEnd="@+id/button3"/>
-
-    <Button
-        android:text="@string/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:id="@+id/button"
-        android:layout_below="@+id/textView"
+        android:text="@string/accelerometerButton"
+        android:layout_width="160sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="78dp"
+        android:textSize="16sp"
+        android:textColor="#9575CD"
+        android:backgroundTint="#EDE7F6"
+        android:id="@+id/accelerometerButtonId"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_below="@+id/mainIntroId"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"/>
 
     <Button
-        android:text="@string/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button6"
-        android:layout_alignBaseline="@+id/button5"
-        android:layout_alignBottom="@+id/button5"
+        android:text="@string/gyroscopeButtonText"
+        android:layout_width="160sp"
+        android:layout_height="70sp"
+        android:textSize="16sp"
+        android:textColor="#9575CD"
+        android:backgroundTint="#EDE7F6"
+        android:id="@+id/gyroscopeButtonId"
+        android:layout_alignTop="@+id/accelerometerButtonId"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignLeft="@+id/button4"
-        android:layout_alignStart="@+id/button4"/>
+        android:layout_marginRight="21dp"
+        android:layout_marginEnd="21dp"/>
 
     <Button
-        android:text="@string/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:layout_alignBaseline="@+id/button"
-        android:layout_alignBottom="@+id/button"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"/>
+        android:text="@string/proximityButton"
+        android:layout_width="160sp"
+        android:layout_height="70sp"
+        android:textSize="16sp"
+        android:textColor="#9575CD"
+        android:backgroundTint="#EDE7F6"
+        android:id="@+id/proximityButtonId"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/accelerometerButtonId"
+        android:layout_alignRight="@+id/accelerometerButtonId"
+        android:layout_alignEnd="@+id/accelerometerButtonId"/>
 
     <Button
-        android:text="@string/button7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="35dp"
-        android:id="@+id/button7"
-        android:layout_alignParentBottom="true"
+        android:text="@string/cameraButton"
+        android:layout_width="160sp"
+        android:layout_height="70sp"
+        android:textSize="16sp"
+        android:textColor="#9575CD"
+        android:backgroundTint="#EDE7F6"
+        android:id="@+id/cameraButtonId"
+        android:layout_alignBottom="@+id/proximityButtonId"
+        android:layout_alignLeft="@+id/gyroscopeButtonId"
+        android:layout_alignStart="@+id/gyroscopeButtonId"/>
+
+    <Button
+        android:text="@string/sensorList"
+        android:layout_width="160sp"
+        android:layout_height="70sp"
+        android:textSize="16sp"
+        android:textColor="#9575CD"
+        android:backgroundTint="#EDE7F6"
+        android:layout_marginTop="24dp"
+        android:id="@+id/listId"
+        android:layout_below="@+id/proximityButtonId"
         android:layout_centerHorizontal="true"/>
-</RelativeLayout>
+
+    <TextView
+        android:text="&#xe60e;"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EDE7F6"
+        android:id="@+id/introIconId"
+        android:textStyle="bold"
+        android:textSize="100sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"/>
+</android.widget.RelativeLayout>

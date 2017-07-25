@@ -1,18 +1,18 @@
 [
     {
-        "merged": "D:\\IntelliJ Projects\\CloudSim\\InteractingWithSensors\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "D:\\IntelliJ Projects\\CloudSim\\InteractingWithSensors\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "D:\\IntelliJ Projects\\Android Projects (DRDO)\\Sensors\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Vivek Sethi\\.android\\build-cache\\41f0738288ec813235731acb501772497c834ef3\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "D:\\IntelliJ Projects\\CloudSim\\InteractingWithSensors\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "D:\\IntelliJ Projects\\CloudSim\\InteractingWithSensors\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout-v21\\notification_template_custom_big.xml"
+        "merged": "D:\\IntelliJ Projects\\Android Projects (DRDO)\\Sensors\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Vivek Sethi\\.android\\build-cache\\41f0738288ec813235731acb501772497c834ef3\\output\\res\\layout-v21\\notification_action.xml"
     },
     {
-        "merged": "D:\\IntelliJ Projects\\CloudSim\\InteractingWithSensors\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "D:\\IntelliJ Projects\\CloudSim\\InteractingWithSensors\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout-v21\\notification_action.xml"
+        "merged": "D:\\IntelliJ Projects\\Android Projects (DRDO)\\Sensors\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Vivek Sethi\\.android\\build-cache\\41f0738288ec813235731acb501772497c834ef3\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "D:\\IntelliJ Projects\\CloudSim\\InteractingWithSensors\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "D:\\IntelliJ Projects\\CloudSim\\InteractingWithSensors\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "D:\\IntelliJ Projects\\Android Projects (DRDO)\\Sensors\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Vivek Sethi\\.android\\build-cache\\41f0738288ec813235731acb501772497c834ef3\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     }
 ]

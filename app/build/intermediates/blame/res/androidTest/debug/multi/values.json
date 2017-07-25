@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\IntelliJ Projects\\CloudSim\\InteractingWithSensors\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "D:\\IntelliJ Projects\\Android Projects (DRDO)\\Sensors\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "D:\\IntelliJ Projects\\CloudSim\\InteractingWithSensors\\app\\build\\intermediates\\exploded-aar\\com.android.support.test\\rules\\0.5\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Vivek Sethi\\.android\\build-cache\\ed8be2e8222acde848bbf328d51e898269c3d8cf\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

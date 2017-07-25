@@ -1,56 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<android.widget.RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_accelerometer_sensor"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:background="@color/colorAccent"
-    tools:context="sagar.com.interactingwithsensors.AccelerometerSensor">
+    android:background="#673AB7"
+    tools:context="sagar.com.sensors.AccelerometerSensor">
 
     <TextView
-        android:text="@string/introTextAccelerometer"
-        android:textSize="40sp"
+        android:text="@string/accelerometerIntroText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="58dp"
-        android:id="@+id/introTextAccelerometer"
+        android:textColor="#EDE7F6"
+        android:layout_marginTop="114dp"
+        android:id="@+id/accelerometerIntroId"
+        android:textStyle="bold"
+        android:textSize="27sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"/>
 
     <TextView
-        android:text="@string/yText"
-        android:textSize="20sp"
-        android:layout_width="wrap_content"
+        android:text="@string/xValueText"
+        android:layout_width="250sp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="58dp"
-        android:id="@+id/yText"
-        android:layout_below="@+id/xText"
-        android:layout_alignLeft="@+id/xText"
-        android:layout_alignStart="@+id/xText"/>
+        android:textColor="#EDE7F6"
+        android:textAlignment="center"
+        android:layout_below="@+id/accelerometerIntroId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:id="@+id/xValueId"
+        android:textSize="18sp"/>
 
     <TextView
-        android:text="@string/zText"
-        android:textSize="20sp"
-        android:layout_width="wrap_content"
+        android:text="@string/yValueText"
+        android:layout_width="250sp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:id="@+id/zText"
-        android:layout_below="@+id/yText"
-        android:layout_alignLeft="@+id/yText"
-        android:layout_alignStart="@+id/yText"/>
+        android:textAlignment="center"
+        android:textColor="#EDE7F6"
+        android:layout_below="@+id/xValueId"
+        android:layout_alignRight="@+id/xValueId"
+        android:layout_alignEnd="@+id/xValueId"
+        android:layout_marginTop="43dp"
+        android:id="@+id/yValueId"
+        android:textSize="18sp"/>
 
     <TextView
-        android:text="@string/xText"
-        android:textSize="20sp"
-        android:layout_width="wrap_content"
+        android:text="@string/zValueText"
+        android:layout_width="250sp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="104dp"
-        android:id="@+id/xText"
-        android:layout_below="@+id/introTextAccelerometer"
+        android:textColor="#EDE7F6"
+        android:textAlignment="center"
+        android:layout_marginTop="49dp"
+        android:id="@+id/zValueId"
+        android:textSize="18sp"
+        android:layout_below="@+id/yValueId"
         android:layout_centerHorizontal="true"/>
-</RelativeLayout>
+
+    <TextView
+        android:text="@string/accelerometerInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EDE7F6"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:id="@+id/infoTextId"
+        android:textSize="18sp"/>
+</android.widget.RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    tools:context="sagar.com.sensors.ListSensor">
+
+    <TextView
+        android:text="@string/sensorListIntroText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EDE7F6"
+        android:layout_marginTop="97dp"
+        android:id="@+id/sensorListId"
+        android:textStyle="bold"
+        android:textSize="27sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="#B0BEC5"
+        android:layout_marginTop="77dp"
+        android:layout_below="@+id/sensorListId"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="@string/allSensors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#4a0072"
+            android:layout_marginTop="1dp"
+            android:id="@+id/allSensorsId"
+            android:textSize="18sp"
+            android:textAlignment="center"/>
+    </ScrollView>
+</android.widget.RelativeLayout>

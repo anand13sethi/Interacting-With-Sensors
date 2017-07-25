@@ -1,20 +1,23 @@
 <resources>
-    <string name="app_name">InteractingWithSensors</string>
-    <string name="introText">Let\'s Interact!</string>
-    <string name="introText1">All Available Sensors</string>
-    <string name="introTextAccelerometer">Axis\' Values</string>
-    <string name="introTextProximity">Proximity Sensor Value</string>
-    <string name="proximityValue"></string>
-    <string name="xText"></string>
-    <string name="yText"></string>
-    <string name="zText"></string>
-    <string name="sensorList"></string>
-    <string name="button1">Accelerometer</string>
-    <string name="button2">Proximity Sensor</string>
-    <string name="button3">Magnetic Field Sensor</string>
-    <string name="button4">Orientation Sensor</string>
-    <string name="button5">Light Sensor</string>
-    <string name="button6">Gyroscope</string>
-    <string name="button7">Sensor\'s List</string>
+    <string name="app_name">Sensors</string>
+    <string name="mainIntroText">Interacting With Sensors</string>
+    <string name="accelerometerButton">&#xe1c1; Accelerometer</string>
+    <string name="accelerometerIntroText">Accelerometer Sensor</string>
+    <string name="accelerometerInfo"> </string>
+    <string name="xValueText"> </string>
+    <string name="yValueText"> </string>
+    <string name="zValueText"> </string>
+    <string name="gyroscopeButtonText">&#xe41d; Gyroscope Sensor</string>
+    <string name="gyroscopeIntroText">Gyroscope Sensor</string>
+    <string name="proximityButton">&#xe8c7; Proximity Sensor</string>
+    <string name="proximityIntroText">Proximity Sensor</string>
+    <string name="proximityValue"> </string>
+    <string name="cameraButton">&#xe8fc; Camera</string>
+    <string name="cameraIntroText">&#xe8fc;</string>
+    <string name="captureButton">&#xe3b0; Snap</string>
+    <string name="saveButton">&#xe439; Save</string>
+    <string name="discardButton">&#xe033; Discard</string>
+    <string name="sensorList">&#xe242; List of Sensors Available</string>
+    <string name="sensorListIntroText">List Of Available Sensors</string>
+    <string name="allSensors"> </string>
 </resources>
-

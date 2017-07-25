@@ -2,36 +2,95 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="22"
+    build-mode="COLD"
     density="xhdpi"
-    format="8"
-    plugin-version="2.2.2"
-    timestamp="52266988617410"
-    token="7190549153002717615"
-    verifier="FULL_BUILD_REQUESTED" >
+    format="10"
+    plugin-version="2.3.0"
+    timestamp="1501021238786"
+    token="8757715004587073329"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="515" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="403" />
+        duration="0" />
     <task
         name="verifier"
-        duration="154" />
+        duration="0" />
 
     <artifact
-        location="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="D:\IntelliJ Projects\Android Projects (DRDO)\Sensors\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
-        timestamp="52266988617410"
+        build-mode="FULL"
+        timestamp="1501014122861"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="D:\IntelliJ Projects\CloudSim\InteractingWithSensors\app\build\outputs\apk\app-debug.apk"
-            type="MAIN" />
+            location="D:\IntelliJ Projects\Android Projects (DRDO)\Sensors\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="D:\IntelliJ Projects\Android Projects (DRDO)\Sensors\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\IntelliJ Projects\Android Projects (DRDO)\Sensors\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\IntelliJ Projects\Android Projects (DRDO)\Sensors\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\IntelliJ Projects\Android Projects (DRDO)\Sensors\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\IntelliJ Projects\Android Projects (DRDO)\Sensors\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\IntelliJ Projects\Android Projects (DRDO)\Sensors\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\IntelliJ Projects\Android Projects (DRDO)\Sensors\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\IntelliJ Projects\Android Projects (DRDO)\Sensors\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\IntelliJ Projects\Android Projects (DRDO)\Sensors\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\IntelliJ Projects\Android Projects (DRDO)\Sensors\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\IntelliJ Projects\Android Projects (DRDO)\Sensors\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1501017401924"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\IntelliJ Projects\Android Projects (DRDO)\Sensors\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1501020797581"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\IntelliJ Projects\Android Projects (DRDO)\Sensors\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1501021238786"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\IntelliJ Projects\Android Projects (DRDO)\Sensors\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
