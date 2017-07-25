@@ -9,10 +9,10 @@ Interacts with:
 3. Proximity Sensor
     - Tells when any object is close to the device by changing colors.
 4. Camera
-    - Take a picture through the secondary camera og the device and stores the image in the gallery.
+    - Take a picture through the secondary camera of the device and stores the image in the gallery.
 
 Future Scope:
 1. To add wake up functionality when one hovers hand over the proximity sensor.
 2. To add wake up functionality when one lifts up the device.
 3. To add video capturing capability.
-4. Add funcionality of more sensors.
+4. Add support of more sensors.
